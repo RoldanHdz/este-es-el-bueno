@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/inicio">
+
+    <fragment
+        android:id="@+id/inicio"
+        android:name="com.example.reporteziutlan.inicioFragment"
+        android:label="Inicio" />
+
+    <fragment
+        android:id="@+id/mapa"
+        android:name="com.example.reporteziutlan.mapaFragment"
+        android:label="Mapa" />
+
+    <fragment
+        android:id="@+id/dependencias"
+        android:name="com.example.reporteziutlan.dependenciasFragment"
+        android:label="Dependencias" />
+</navigation>
