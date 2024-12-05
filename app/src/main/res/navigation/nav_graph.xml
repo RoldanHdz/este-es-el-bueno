@@ -8,15 +8,33 @@
     <fragment
         android:id="@+id/inicio"
         android:name="com.example.reporteziutlan.inicioFragment"
-        android:label="Inicio" />
+        android:label="Inicio"
+        >
+        <action
+            android:id="@+id/action_inicio_to_mapa"
+            app:destination="@id/mapa" />
+    </fragment>
 
     <fragment
         android:id="@+id/mapa"
         android:name="com.example.reporteziutlan.mapaFragment"
-        android:label="Mapa" />
+        android:label="Mapa"
+        >
+        <action
+            android:id="@+id/action_mapa_to_dependencias"
+            app:destination="@id/dependencias" />
+    </fragment>
 
     <fragment
         android:id="@+id/dependencias"
         android:name="com.example.reporteziutlan.dependenciasFragment"
-        android:label="Dependencias" />
+        android:label="Dependencias"
+        >
+        <action
+            android:id="@+id/action_dependencias_to_inicio"
+            app:destination="@id/inicio" />
+        <action
+            android:id="@+id/action_dependencias_to_mapa"
+            app:destination="@id/mapa" />
+    </fragment>
 </navigation>

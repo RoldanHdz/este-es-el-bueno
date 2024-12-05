@@ -4,4 +4,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="nescui">#FF9656</color>
     <color name="nescuifondo">#fffcfb</color>
+    <color name="fondonav">#fffdfc</color>
+    <color name="seleccionnav">#ffc8b5</color>
+    <color name="agregar">#FFBC73</color>
+    <color name="dependencia">#A51462</color>
 </resources>
